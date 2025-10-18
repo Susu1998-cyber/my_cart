@@ -13,7 +13,7 @@ const ShowCourseComponent = ({
       ) : (
 
 
-        filterCourseFunction.slice(0, 10).map((product) => (
+        filterCourseFunction.slice(0, 5).map((product) => (
         
           <div className="product" key={product.id}>
               {console.log(product)
